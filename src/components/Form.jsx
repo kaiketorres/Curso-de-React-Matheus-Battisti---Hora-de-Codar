@@ -15,7 +15,7 @@ export default function Form() {
       <form action="" onSubmit={CadratroUser}>
         <div>
           <label htmlFor="name">Name:</label>
-          <input onChange={(e) => setName(e.target.value)  }
+          <input onChange={(e ) => setName(e.target.value)  }
             type="text"
             id="name"
             name="name"
